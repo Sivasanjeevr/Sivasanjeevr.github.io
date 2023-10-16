@@ -2,15 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
 
 body{
-    background-color: black;
+    background-image: url('bg.jpg');
+    background-repeat: repeat;
 }
 
 .heading{
-    color:white;
+    color: white;
     font-family: 'Poppins';
     font-size: 40px;
     margin-top: 70px;
     margin-left:200px;
+    transition: color 0.3s;
 }
 
 .p1{
@@ -20,19 +22,24 @@ body{
     margin-top: 100px;
     margin-left: 180px;
     border:1px solid white; 
+    color:white;
     border-radius: 20px;
+}
+
+.p1 a{
+    color:white;
 }
 
 .p1 .title{
     margin-top:40px;
-    color:white;
+    
     font-size: 35px;
     font-family: 'Pacifico';
     margin-left: 85px;
 }
 
 .abs{
-    color:white;
+    
     font-family: 'Poppins';
     font-size: 17px;
     margin: 70px;
@@ -42,7 +49,7 @@ body{
 .p1 .title span{
     font-family: 'Poppins';
     font-size: 17px;
-    color:white;
+    
 }
 
 
@@ -60,7 +67,7 @@ body{
 
 .techstack{
     margin-left: 30%;
-    color:white;
+    
     font-family: 'Poppins';
 }
 
@@ -69,10 +76,17 @@ body{
     margin-left: 70px;
     margin-right: 70px;
     margin-bottom: 20px;
-    color:white;
+    
     font-family: 'Poppins';
 }
 
 .details{
     margin-top: 20px;
 }
+
+.p1:hover {
+    background-color: rgb(200, 188, 188);
+    color: black;
+}
+
+
