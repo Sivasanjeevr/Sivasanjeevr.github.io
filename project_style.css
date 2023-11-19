@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
 
 body{
-    background-image: url('bg.jpg');
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,10,40,1) 33%, rgba(0,212,255,1) 100%);
     background-repeat: repeat;
 }
 
