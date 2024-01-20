@@ -678,10 +678,9 @@ img {
 }
 
 .portfolio-img {
-  height: 300px;
-  width: 265px;
+  height: 200px;
+  width: 420px;
   border-radius: 1.5rem;
-  justify-self: center;
 }
 
 .portfolio-title {
@@ -1131,10 +1130,7 @@ img {
     width: 450px;
   }
 
-  .portfolio-img {
-    width: 320px;
-  }
-
+  
   .portfolio-content {
     align-items: center;
   }
